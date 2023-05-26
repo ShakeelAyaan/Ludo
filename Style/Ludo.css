@@ -1,5 +1,5 @@
 body {
-    background-color: #f2f2f2;
+    background-color:black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,6 +8,7 @@ body {
 }
 .division{
     background-color: black;
+    border:1px solid white
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -36,10 +37,11 @@ a:hover{
         width: auto;
         align-items: center;
         text-align: center;
-        background-color:green;
+        background-color:black;
+        
     }
     div{
-      width: 70%
+      width: 80%
     }
     #newClass{
       width:200px;
